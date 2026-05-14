@@ -39,59 +39,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Add the model link
-
-The trained model file is not stored in the repository because it is too large for GitHub.
-
-Open `app.py` and find:
-
-```python
-GOOGLE_DRIVE_MODEL_URL = "PASTE_GOOGLE_DRIVE_MODEL_LINK_HERE"
-```
-
-Replace `PASTE_GOOGLE_DRIVE_MODEL_LINK_HERE` with the Google Drive link to the model file.
-
-The model file must be shared with the following access setting:
-
-```text
-Anyone with the link can view
-```
-
-The expected model file is:
-
-```text
-bankruptcy_rf_bundle.pkl
-```
-
-After the first launch, the application will download the model and save it locally to:
-
-```text
-model_cache/bankruptcy_rf_bundle.pkl
-```
-
-### 5. Add API keys
-
-External data modules may require API keys.
-
-You can set them in the terminal:
-
-```bash
-export PARSER_API_KEY="your_api_key_here"
-export ARBITR_API_KEY="your_api_key_here"
-```
-
-For Windows PowerShell:
-
-```powershell
-$env:PARSER_API_KEY="your_api_key_here"
-$env:ARBITR_API_KEY="your_api_key_here"
-```
-
-Alternatively, insert the key directly in `app.py` in the API configuration section.
-
-Do not commit real API keys to a public repository.
-
-### 6. Run the application
+### 4. Run the application
 
 ```bash
 streamlit run app.py
