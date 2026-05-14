@@ -71,11 +71,12 @@ Main functions:
 ```text
 bankruptcy-analyzer/
 │
-├── app.py                 # Main Streamlit application
-├── requirements.txt       # Python dependencies
-├── runtime.txt            # Python runtime version
-├── README.md              # Launch instructions and project description
-└── model_cache/           # Created automatically after model download
+├── app.py                                                       # Main Streamlit application
+├── requirements.txt                                             # Python dependencies
+├── runtime.txt                                                  # Python runtime version
+├── README.md                                                    # Launch instructions and project description
+├── Clean notebook for the empirical part of the thesis.ipynb    
+└── model_cache/                                                 # Created automatically after model download
 ```
 
 The `model_cache/` folder is not uploaded to GitHub.
