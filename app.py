@@ -18,12 +18,7 @@ import httpx
 
 APP_BUILD = "summary-strict-v6-en"
 
-# ---------------------------------------------------------
-# Embedded API key configuration
-# ---------------------------------------------------------
-# Paste your parser-api.com key between the quotation marks below.
-# If you prefer environment variables, leave this value unchanged and set
-# PARSER_API_KEY or ARBITR_API_KEY in your terminal/hosting environment.
+
 EMBEDDED_PARSER_API_KEY = "b546b1b13b909730fe3b8a21603c6843"
 
 # ---------------------------------------------------------
