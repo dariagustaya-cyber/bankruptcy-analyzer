@@ -153,14 +153,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### External modules do not work
-
-Check API keys:
-
-```bash
-echo $PARSER_API_KEY
-echo $ARBITR_API_KEY
-```
 
 ## Thesis Context
 
