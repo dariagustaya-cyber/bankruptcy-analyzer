@@ -75,7 +75,6 @@ bankruptcy-analyzer/
 ├── requirements.txt       # Python dependencies
 ├── runtime.txt            # Python runtime version
 ├── README.md              # Launch instructions and project description
-├── .gitignore             # Files excluded from Git tracking
 └── model_cache/           # Created automatically after model download
 ```
 
